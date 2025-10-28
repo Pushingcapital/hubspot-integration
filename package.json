@@ -1,0 +1,14 @@
+{
+  "name": "hubspot-integration",
+  "version": "1.0.0",
+  "description": "Integration for HubSpot API in Base44 and local environment",
+  "main": "backend/getTradelines.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/getTradelines.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.3.1"
+  }
+}
